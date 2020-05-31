@@ -1,0 +1,300 @@
+ body{
+  font-family: calibri;
+ }
+ .toptext{
+  background-color: #0095ff;
+  font-size: 01.2cm;
+  padding-left: 10px;
+  color: white;
+  margin-top: 0px;
+  margin-left: -9px;
+  margin-right: -9px;
+  margin-bottom: 0px;
+ }
+ .allabout{
+  background-color: #0077ff;
+  padding-top: 10px;
+  margin-left: -10px;
+  padding-left: 20px;
+  width: 1332px;
+  height: 40px;
+ }
+ /*This area contains the "Shop now" content and button*/
+ .shopnow{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .shopnow:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ /*This area shows the"insurance and its contents"*/
+ .insurance{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .insurance:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ .insurancecontent{
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-width: 140px;
+  visibility: hidden;
+  max-height: 120px;
+ }
+ .insfull{
+  display: inline-block;
+  position: relative;
+ }
+ .inscont{
+  background-color: transparent;
+  border-color: transparent;
+  padding-bottom: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 140px;
+  padding-top: 8px;
+ }
+ .inscont:hover{
+  background-color: #0000001f;
+ }
+ .insfull:hover .insurancecontent {visibility: visible;}
+ .windows{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right:20px;
+ }
+ .windows:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ .mac{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .mac:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ .linux{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .linux:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+  .unbunt{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .unbunt:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ .stationaries{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .stationaries:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ .laptop{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .laptop:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ .mouse{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .mouse:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ .keyboard{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .keyboard:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ .games{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-radius: 2px 2px 2px 2px;
+  margin-right: 20px;
+ }
+ .games:hover{
+  background-color: white;
+  color: #0095ff;
+  cursor: pointer;
+ }
+ /*this area contains top image styles*/
+ .topimg{
+  background-image: url(https://i.pinimg.com/564x/8e/ee/04/8eee04aeefee34699b413b5a55079b82.jpg) ;
+  height: 500px;
+  width: 750px;
+  border-radius: 10px;
+  margin-top: 10px;
+ }
+ .topimgbtn{
+  color: white;
+  margin-top: 250px;
+  font-size: 0.5cm;
+  border-color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  height: 40px;
+  width: 350px;
+  border: 1px solid white;
+ }
+ .topimgbtn:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+ }
+ .selling{
+  padding-top: 70px;
+  background-color:#f7f4f463;
+  padding-bottom: 70px;
+  padding-left: 40px;
+ }
+ .sellabout{
+  font-size: 0.8cm;
+  width: 250px;
+  font-family: arial;
+ }
+ .shop{
+  height: 700px;
+ }
+ #subscribe{
+  color: #4f75ff;
+  font-size: 0.7cm;
+  width: 400px;
+ }
+ #email{
+  width: 325px;
+  height: 27px;
+  font-size: 0.5cm;
+  border: 2px solid #1a237e;
+  padding-left: 5px;
+  font-family: arial;
+  margin-bottom: 30px;
+ }
+ #getemail{
+  background-color: #1a237e;
+  color: white;
+  border-color: transparent;
+  height: 34px;
+  width: 90px;
+ }
+ .buy{
+  border:1px solid #717171;
+  width: 350px;
+  height: 150px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+ }
+ .buytext{
+  color: black;
+  font-size: 0.6cm;
+ }
+ .buyproduct{
+  border-radius: 5px; 
+  height: 40px;
+  width: 150px;
+  background-color: #0064FFFF;
+  border: 0px;
+  color: white;
+  box-shadow: 0px 0px 5px 3px blue;
+  margin-bottom: 20px;
+}
+.buyproduct:hover{
+  box-shadow: 0px 0px 15px 5px blue;
+  cursor: pointer;
+}
+.about{
+  background-color: #3000FF;
+  margin-bottom:0px;
+}
+.abouttext{
+  margin-bottom: 0px;
+  color: white;
+  font-size: 0.7cm;
+}
+.soon{
+  font-weight: normal;
+  font-size: 0.5cm;
+}
