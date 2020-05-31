@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome | Buy and Sell Products</title>
+    <link rel="stylesheet" type="text/css" href="mysite.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfWGaZh1oQA57GbRAZJ1z9azYgo1uSIgG9ghXbzYJowyMonxGE&usqp=CAU">
+  </head>
+  <body>
+    <marquee class="mytext">This is a sample site. This site shows a model of a business site.</marquee>
+    <p class="toptext">Nova Dime</p>
+    <!--contents-->
+    <div class="allabout">
+      <button class="shopnow">Shop Now</button>
+      <!--this area contain insurance and its content-->
+      <div class="insfull">
+        <button class="insurance">Insurance</button>
+        <div class="insurancecontent">
+          <button class="inscont">Life Insurance</button>
+          <button class="inscont">Home Insurance</button>
+          <button class="inscont">Health Insurance</button>
+        </div>
+      </div>
+      <!--end of insurance contents-->
+      <button class="windows">Windows</button>
+      <button class="mac">Macintosh</button>
+      <button class="linux">Linux</button>
+      <button class="unbunt">Unbuntu</button>
+      <button class="stationaries">Stationaries</button>
+      <button class="laptop">Laptop</button>
+      <button class="mouse">Mouse</button>
+      <button class="keyboard">Keyboard</button>
+      <button class="games">Games</button>
+
+    </div>
+    <!--end of content-->
+    <center>
+    <div class="topimg">
+      <button class="topimgbtn">We made buying and selling Easier</button>
+    </div>
+    </center>
+    <img src="boxout.png" id="bg" alt="">
+    <img src="shopping.png" alt="" class="shop">
+    <center>
+    <div id="myemail">
+      <p id="subscribe">Give Your Email and Get Latest Discount and Updates.</p>
+      <input type="email" id="email" placeholder="Email">
+      <button id="getemail" onclick="hidemail()">Subscribe</button>
+    </div>
+    <div class="buy">
+      <p class="buytext">You can buy anything From here:</p>
+      <button class="buyproduct">Buy Products</button>
+    </div>
+    <div class="buy">
+      <p class="buytext">You can sell anything From here:</p>
+      <button class="buyproduct">Sell Products</button>
+    </div>
+    <p class="soon">Please come again soon. We will met you with a new offer.</p>
+    <div class="about">
+      <p class="abouttext">Khushi web Limited | Web Builders | Public with no cost</p>
+    </div>
+    </center>
+    <script>
+
+    ///hide the my email div and its content
+    function hidemail() {
+    myemail.style.visibility = 'hidden';
+    myemail.style.width = '0px';
+    myemail.style.height = '0px';
+    }
+  </script>
+  </body>
+</html>
